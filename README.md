@@ -97,31 +97,31 @@ ________________________________________
 
 # Prompt:
 ```
-## Step 1: Define Scope and Objectives
+Step 1: Define Scope and Objectives
 
 Act as an academic guide. Define the goal, target audience, objectives, key topics, and learning outcomes for a report on Generative AI and LLMs. Use simple language and bullet points.
 
-## Step 2: Create Report Structure
+Step 2: Create Report Structure
 
 Act as a technical writer. Create a report outline on Generative AI and LLMs, including the title page, abstract, introduction, main topics, conclusion, and references. Briefly describe each section.
 
-## Step 3: Research and Data Collection
+Step 3: Research and Data Collection
 
 Act as an AI research assistant. Find five reliable research papers or official sources about Generative AI, Transformers, and LLM scaling. Include titles, authors, years, links, and key findings.
 
-## Step 4: Content Development
+Step 4: Content Development
 
 Act as an AI expert. Explain Generative AI fundamentals, GANs, VAEs, diffusion models, Transformers, applications, and LLM scaling using simple explanations, examples, and a comparison table.
 
-## Step 5: Visual and Technical Enhancement
+Step 5: Visual and Technical Enhancement
 
 Create a Transformer architecture diagram, a Generative AI workflow flowchart, and a comparison table of GANs, VAEs, diffusion models, and Transformers for my report.
 
-## Step 6: Review and Edit
+Step 6: Review and Edit
 
 Act as an academic reviewer. Check my Generative AI report for grammar, technical accuracy, missing content, and references. List the issues and suggest corrections. Report: [Paste text].
 
-## Step 7: Finalize and Export
+Step 7: Finalize and Export
 
 Act as a document formatter. Give me a checklist for formatting my Generative AI report, adding diagrams and references, proofreading, and exporting the final document as a PDF.
 ```
