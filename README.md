@@ -97,6 +97,15 @@ ________________________________________
 
 # Prompt:
 ```
+Comprehensive Report on the Fundamentals of Generative AI and Large Language Models (LLMs)
+Experiment: Develop a comprehensive report for the following exercises:
+
+Explain the foundational concepts of Generative AI.
+Focusing on Generative AI architectures. (like transformers).
+Generative AI applications.
+Generative AI impact of scaling in LLMs.
+
+prompt for each step 
 Step 1: Define Scope and Objectives
 
 Act as an academic guide. Define the goal, target audience, objectives, key topics, and learning outcomes for a report on Generative AI and LLMs. Use simple language and bullet points.
@@ -124,19 +133,139 @@ Act as an academic reviewer. Check my Generative AI report for grammar, technica
 Step 7: Finalize and Export
 
 Act as a document formatter. Give me a checklist for formatting my Generative AI report, adding diagrams and references, proofreading, and exporting the final document as a PDF.
+
+give me both text output and image for each step
 ```
 
 
-# Output
+# Output(Deep Seek):
+### Step 1: Scope and Objectives
+Text
 
+Goal: Explain Generative AI and LLMs clearly for students and technical beginners.
 
-# Result
+Audience: Undergrads, early postgrads, technical professionals.
+
+Objectives: Define GenAI; compare GANs, VAEs, diffusion, Transformers; explain LLM scaling; list applications and risks.
+
+Key topics: Fundamentals, architectures, Transformer mechanics, scaling laws, applications, responsible use.
+
+Outcomes: Reader can explain GenAI, compare architectures, describe self-attention, interpret scaling laws, and identify risks.
+
+Image
 ```mermaid
 flowchart LR
-    G[Grammar] --> P{Pass?}
-    T[Technical] --> P
-    M[Missing] --> P
-    R[References] --> P
-    P -- No --> E[Edit] --> G
-    P -- Yes --> F[Finalize]
+A[Generative AI & LLMs] --> B[Fundamentals]
+A --> C[Architectures]
+A --> D[Scaling]
+A --> E[Applications]
+A --> F[Responsible Use]
+```
+
+### Step 2: Report Structure
+Text
+
+Title Page
+
+Abstract
+
+Introduction
+
+Foundational Concepts
+
+Architectures: GANs, VAEs, Diffusion, Transformers
+
+Transformer Deep Dive
+
+Applications
+
+Impact of Scaling in LLMs
+
+Limitations and Responsible Use
+
+Conclusion
+
+References
+
+Appendix (optional)
+
+Image
+```mermaid
+flowchart TD
+A[Title] --> B[Abstract] --> C[Introduction] --> D[Fundamentals]
+D --> E[Architectures] --> F[Transformers] --> G[Applications]
+G --> H[Scaling] --> I[Limitations] --> J[Conclusion] --> K[References]
+```
+
+
+### Step 3: Research Sources
+Text
+
+Vaswani et al. (2017), Attention Is All You Need — Transformer uses self-attention; more parallelizable than RNNs.
+https://arxiv.org/abs/1706.03762
+
+Goodfellow et al. (2014), Generative Adversarial Networks — Generator vs. discriminator adversarial training.
+https://arxiv.org/abs/1406.2661
+
+Ho et al. (2020), Denoising Diffusion Probabilistic Models — High-quality generation by reversing noise.
+https://arxiv.org/abs/2006.11239
+
+Kaplan et al. (2020), Scaling Laws for Neural Language Models — Loss follows power laws with model/data/compute.
+https://arxiv.org/abs/2001.08361
+
+Hoffmann et al. (2022), Training Compute-Optimal Large Language Models — Scale model size and tokens equally; Chinchilla 70B beats larger models.
+https://arxiv.org/abs/2203.15556
+
+Image
+```mermaid
+flowchart LR
+GAN[Goodfellow 2014<br/>GANs] --> TRANS[Vaswani 2017<br/>Transformer]
+DIFF[Ho 2020<br/>Diffusion] --> TRANS
+TRANS --> KAP[Kaplan 2020<br/>Scaling laws]
+KAP --> CHIN[Hoffmann 2022<br/>Chinchilla]
+```
+
+### Step 4: Content Development
+Text
+
+Generative AI: Models learn data distribution and sample new data. Main types: GANs, VAEs, diffusion, autoregressive Transformers.
+
+GANs: Generator makes fakes; discriminator detects fakes. Sharp images, unstable training.
+
+VAEs: Encode to latent space, decode to data. Stable, smooth latent space, blurrier outputs.
+
+Diffusion: Add noise, learn to remove it. High quality, slow sampling.
+
+Transformers: Self-attention captures long-range context. Backbone of modern LLMs.
+
+Applications: Text, image, audio, code, multimodal.
+
+Scaling: Kaplan: loss follows power laws. GPT-3: scale enables few-shot learning. Chinchilla: scale parameters and tokens equally.
+
+Comparison: GANs = sharp/unstable; VAEs = stable/blurry; Diffusion = high quality/slow; Transformers = scalable/general but hallucination risk.
+
+Image
+```mermaid
+quadrantChart
+title Generative Architecture Trade-offs
+x-axis Low fidelity --> High fidelity
+y-axis Low stability --> High stability
+GANs: [0.85, 0.25]
+VAEs: [0.40, 0.90]
+Diffusion: [0.90, 0.80]
+Transformers: [0.80, 0.75]
+```
+
+
+### 
+
+| Model | Strength | Weakness |
+|---|---|---|
+| **GANs** | Sharp images | Unstable; mode collapse |
+| **VAEs** | Stable; latent space | Blurry outputs |
+| **Diffusion** | High quality | Slow sampling |
+| **Transformers** | Scalable; general | Compute cost; hallucination |
+# Result
+```mermaid
+
 ```
