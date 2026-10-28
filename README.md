@@ -131,3 +131,10 @@ Act as a document formatter. Give me a checklist for formatting my Generative AI
 
 
 # Result
+flowchart LR
+G[Grammar] --> P{Pass?}
+T[Technical] --> P
+M[Missing] --> P
+R[References] --> P
+P -- No --> E[Edit] --> G
+P -- Yes --> F[Finalize]
