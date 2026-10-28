@@ -257,7 +257,34 @@ Transformers: [0.80, 0.75]
 ```
 
 
-### 
+### Step 5: Visual and Technical Enhancement
+
+Text
+Use three visuals: Transformer diagram, GenAI workflow, architecture comparison table.
+
+Image 1 — Transformer Architecture
+```mermaid
+flowchart TB
+subgraph Encoder
+E1[Input + Position] --> E2[Self-Attention] --> E3[Add & Norm] --> E4[Feed-Forward] --> E5[Add & Norm]
+end
+subgraph Decoder
+D1[Output + Position] --> D2[Masked Self-Attention] --> D3[Add & Norm] --> D4[Cross-Attention] --> D5[Add & Norm] --> D6[Feed-Forward] --> D7[Add & Norm]
+end
+E5 --> D4
+D7 --> O[Linear + Softmax] --> P[Next Token]
+```
+
+Image 2 — Generative AI Workflow
+```mermaid
+flowchart LR
+A[Data] --> B[Preprocess] --> C[Choose Model] --> D[Train] --> E{Converged?}
+E -- No --> F[Tune] --> D
+E -- Yes --> G[Evaluate] --> H{Pass?}
+H -- No --> C
+H -- Yes --> I[Deploy] --> J[Monitor] --> A
+```
+
 
 | Model | Strength | Weakness |
 |---|---|---|
@@ -265,7 +292,57 @@ Transformers: [0.80, 0.75]
 | **VAEs** | Stable; latent space | Blurry outputs |
 | **Diffusion** | High quality | Slow sampling |
 | **Transformers** | Scalable; general | Compute cost; hallucination |
-# Result
-```mermaid
 
+
+### Step 6: Review and Edit
+
+Text
+Check:
+
+Grammar: define acronyms; consistent tense; avoid anthropomorphism.
+
+Accuracy: Transformer = no recurrence; GAN = implicit model; Chinchilla = equal scaling; diffusion = iterative.
+
+Missing: evaluation metrics, one example per architecture, positional encoding, multimodal note.
+
+References: cite all five in text; use stable links; APA style.
+
+Image
+```mermaid
+flowchart LR
+G[Grammar] --> P{Pass?}
+T[Technical] --> P
+M[Missing] --> P
+R[References] --> P
+P -- No --> E[Edit] --> G
+P -- Yes --> F[Finalize]
 ```
+
+
+### Step 7: Finalize and Export
+Text
+Checklist:
+
+Format: 1-inch margins; consistent font; page numbers; heading styles.
+
+Figures: numbered captions; referenced in text; high-resolution diagrams.
+
+References: all cited; alphabetized; APA style; links checked.
+
+Proofread: read aloud; spell-check; verify numbers and names.
+
+PDF: embed fonts; check links; verify TOC and page numbers.
+
+Image
+```mermaid
+flowchart TD
+A[Draft] --> B[Insert diagrams] --> C[Format] --> D[Proofread]
+D --> E[Check refs] --> F[Export PDF] --> G[Final check]
+G --> H{Pass?}
+H -- No --> A
+H -- Yes --> I[Submit]
+```
+# Result: 
+
+The fundamentals, architectures, applications, and scaling impact of Generative AI and Large Language Models (LLMs) were studied and understood successfully.
+
