@@ -27,15 +27,25 @@ Develop a comprehensive report for the following exercises:
 2.4 Introduction
 
 2.5 Main Body Sections:
+
 •	Introduction to AI and Machine Learning
+
 •	What is Generative AI?
+
 •	Types of Generative AI Models (e.g., GANs, VAEs, Diffusion Models)
+
 •	Introduction to Large Language Models (LLMs)
+
 •	Architecture of LLMs (e.g., Transformer, GPT, BERT)
+
 •	Training Process and Data Requirements
+
 •	Use Cases and Applications (Chatbots, Content Generation, etc.)
+
 •	Limitations and Ethical Considerations
+
 •	Future Trends
+
 
 2.6 Conclusion
 
