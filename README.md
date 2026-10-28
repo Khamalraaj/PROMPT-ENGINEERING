@@ -16,9 +16,11 @@ Develop a comprehensive report for the following exercises:
 
 ## Step 2: Create Report Skeleton/Structure:
 
-2.1 Title Page
-2.2 Abstract or Executive Summary
-2.3 Table of Contents
+2.1  Title Page
+
+2.2  Abstract or Executive Summary
+
+2.3  Table of Contents
 2.4 Introduction
 2.5 Main Body Sections:
 •	Introduction to AI and Machine Learning
